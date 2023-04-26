@@ -128,3 +128,7 @@ async function loadPage() {
 }
 
 loadPage();
+
+{
+            some: "json"
+}

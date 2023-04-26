@@ -1,0 +1,49 @@
+.author {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-image img{
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+  object-position: center;
+  object-fit: center;
+}
+
+.author-name {
+  font-family: Asar,Georgia,Times New Roman,Times,serif;
+}
+
+.author-hobbies {
+  font-size: 0.8rem;
+  color: #888
+}
+
+.social-share-group {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem 2px;
+}
+@media (min-width: 450px) {
+    .social-share-group {
+        justify-content: end;
+    }
+}
+
+a.social-share {
+  padding: 0.5rem;
+  min-width: 2rem;
+  border-radius: 4px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  text-align: center;
+}
+a.social-share:hover {
+  text-decoration: none;
+}
